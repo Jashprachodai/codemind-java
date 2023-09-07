@@ -4,8 +4,8 @@ public class Main{
         Scanner ob = new Scanner(System.in);
         int n = ob.nextInt();
         for(int i=n;i>=1;i--){
-            for(int j=i;j>=1;j--){
-                System.out.print((char)(i+64) + " ");
+            for(int j=1;j<=i;j++){
+                System.out.print((char)(i+64)+" ");
             }
             System.out.println();
         }
